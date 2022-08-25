@@ -1,0 +1,10 @@
+{@wooly#CHIEFMD}
+[%root%}
+  [%title%}ChiefMD - Chief Metadata Document{%title%]
+  [*Comment*]
+  [%body% | email}
+    [%author%}WoolyTheWool{%author%]
+    [%to%}John Doe{%to%]
+    [%msg% | color:black,align:left}Hello World!{%msg%]
+  {%body%]
+{%root%]

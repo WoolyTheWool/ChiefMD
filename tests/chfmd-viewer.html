@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ChiefMD - Chief Metadata Document</title>
+    <script src="../src/chiefmd.js"></script>
+  </head>
+  <body>
+    <script>
+      var xhttp = new XMLHttpRequest();
+      xhttp.open('GET', 'helloworld.chfmd');
+      xhttp.send();
+      xhttp.onload = () => {
+        document.body.appendChild(ChiefMDOM.displayTree(ChiefMDOM.parse(xhttp.response)));
+      };
+    </script>
+  </body>
+</html>
